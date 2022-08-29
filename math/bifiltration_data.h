@@ -204,7 +204,7 @@ private:
     unsigned x_grades;
     unsigned y_grades;
 
-    std::vector<LowSimplexData> low_simplices;
+    std::vector<LowSimplexData> low_simplices;  // where results get stored
     std::vector<MidHighSimplexData> mid_simplices, high_simplices;  // where results get stored
 
     //recursive function used in build_VR_complex()
