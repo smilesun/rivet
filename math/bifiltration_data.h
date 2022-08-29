@@ -205,7 +205,7 @@ private:
     unsigned y_grades;
 
     std::vector<LowSimplexData> low_simplices;
-    std::vector<MidHighSimplexData> mid_simplices, high_simplices;
+    std::vector<MidHighSimplexData> mid_simplices, high_simplices;  // where results get stored
 
     //recursive function used in build_VR_complex()
     void build_VR_subcomplex(const std::vector<unsigned>& times,
