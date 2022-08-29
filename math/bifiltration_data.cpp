@@ -102,6 +102,7 @@ void BifiltrationData::build_VR_complex(const std::vector<unsigned>& times,
 } //end build_VR_complex()
 
 //function to add (recursively) a subcomplex of the bifiltration data
+// VR: vietoris rips: maps the real world dataset into simplecial complexes (zeroth oder are points)
 void BifiltrationData::build_VR_subcomplex(const std::vector<unsigned>& times,
     const std::vector<unsigned>& distances,
     std::vector<int>& vertices,

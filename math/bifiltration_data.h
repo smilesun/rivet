@@ -68,8 +68,8 @@ typedef std::vector<int> Simplex;
 typedef std::vector<Grade> AppearanceGrades;
 
 struct LowSimplexData {
-    Simplex s;
-    Grade gr;
+    Simplex s;     // use chronical index for the point to represent the simplex, e.g. (0,1,2) is a 2-d simplex, simplex can be varying size
+    Grade gr;     // position of the grid, a pair of integers
 
     LowSimplexData(Simplex simplex, Grade grade)
         : s(simplex)
@@ -82,7 +82,7 @@ struct MidHighSimplexData {
     Simplex s;
 
     //vector of grades of appearance of s
-    AppearanceGrades grades_vec;
+    AppearanceGrades grades_vec;   // when the simplex appears
 
     //Vector of the column indices in the low matrix corresponding to s.
     //Used to construct high boundary matrix.
