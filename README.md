@@ -3,7 +3,7 @@ playground.sh shows some minimal working example
 
 ## original repo 
 - git@github.com:rivetTDA/rivet.git
-- 
+- https://github.com/smilesun/multi_parameter_persistence_homology_path_learning
 ## original documentation (how to build, install)
 - https://rivet.readthedocs.io/en/latest/installing.html
 
