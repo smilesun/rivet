@@ -1,3 +1,6 @@
+# Update
+playground.sh shows some minimal working example
+
 # RIVET
 
 Program for the visualization and analysis of two-parameter persistent homology.
