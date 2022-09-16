@@ -1,6 +1,12 @@
 # Update
 playground.sh shows some minimal working example
 
+## original repo 
+- git@github.com:rivetTDA/rivet.git
+- 
+## original documentation (how to build, install)
+- https://rivet.readthedocs.io/en/latest/installing.html
+
 # RIVET
 
 Program for the visualization and analysis of two-parameter persistent homology.
