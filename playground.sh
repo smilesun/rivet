@@ -1,7 +1,18 @@
+# Debugger
+inside vim run 
+# :packadd termdebug, already added to vimrc
+:Termdebug
+# without vim
+gdb --args executablename arg1 arg2 arg3
+gdb hello
+break hello.cpp:5
+next (n)
+print age  (variable name)
 # print the data of bifiltration1.txt
 cat ./data/Test_Bifiltrations/bifiltration1.txt
 # test if data can be read correctly
 ./build/rivet_console ./data/Test_Bifiltrations/bifiltration1.txt --minpres
+gdb --args ./build/rivet_console ./data/Test_Bifiltrations/bifiltration1.txt --minpres
 # generate module invariant file
 ./build/rivet_console ./data/Test_Bifiltrations/bifiltration1.txt output_module_inva.rivet --datatype bifiltration --homology 1 --xbins 100 --ybins 100
 # print out the line file
