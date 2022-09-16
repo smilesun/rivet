@@ -1,6 +1,6 @@
 mkdir -p build
 cd build
-cmake ..
+cmake .. -D CMAKE_BUILD_TYPE=Debug
 make
 cd ..
 qmake

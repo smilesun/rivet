@@ -1,6 +1,10 @@
 # Update
 playground.sh shows some minimal working example
 
+## Building 
+
+CMakeLists.txt
+
 ## original repo 
 - git@github.com:rivetTDA/rivet.git
 - https://github.com/smilesun/multi_parameter_persistence_homology_path_learning
